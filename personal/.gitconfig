@@ -11,6 +11,7 @@
   c-- = checkout -- .
   ra = rebase --abort
   rc = rebase --continue
+  lo = log --oneline
   acm = !git add -A && git commit -m
   pocb = push origin HEAD
   comb = !git fo && git checkout origin/main -b
