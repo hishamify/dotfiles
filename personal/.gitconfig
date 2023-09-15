@@ -6,6 +6,7 @@
   c = checkout
   a = add .
   cb = checkout -b
+  cp = cherry-pick
   fo = fetch origin
   bd = branch -D
   c-- = checkout -- .
