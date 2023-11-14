@@ -17,3 +17,5 @@
   pocb = push origin HEAD
   comb = !git fo && git checkout origin/main -b
   romi = !git fo && git rebase origin/main -i
+  codb = !git fo && git checkout origin/movement_adjust_incoming_dev_branch -b
+  rodi = !git fo && git rebase origin/movement_adjust_incoming_dev_branch -i
