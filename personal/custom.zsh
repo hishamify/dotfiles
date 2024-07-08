@@ -10,3 +10,4 @@ alias reindex='bundle exec rake elasticsearch:update_test_mappings && bundle exe
 alias up='dev stop && dev up && dev start'
 alias coverage='dev test --include-branch-commits --coverage'
 alias pup='g pocb -f && up'
+alias dsl='bin/tapioca dsl'
